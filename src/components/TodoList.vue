@@ -21,6 +21,15 @@
         </li>
       </ul>
     </section>
+    <footer class="footer">
+      <span class="todo-count">
+        <strong>{{todos.length}}</strong> items left
+      </span>
+      <ul class="filters">
+        <li class="selected">All</li>
+      </ul>
+      <button class="clear-completed">取消完成</button>
+    </footer>
   </div>
 </template>
 
